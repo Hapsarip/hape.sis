@@ -142,23 +142,6 @@
         </div>
         <!-- Rekomendasi Laptop End -->
 
-    <!-- Modal Start -->
-	<div id="about" class="modal">
-        <div class="modal-content">
-          <h4>Tentang</h4>
-          <p>Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
-				Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo Madura. <br>
-				<br>
-				1. Zulfi Osman<br>
-				2. Wahid Arinanto Nugroho <a href="https://wahidari.gitlab.io/"> (Gitlab)</a><br>
-			</p>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
-        </div>
-    </div>
-    <!-- Modal End -->
-
     <!-- Body End -->
 
     <!-- Footer Start -->
