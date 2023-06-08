@@ -67,11 +67,11 @@
                                                             <div class="col s6">
                                                                 <select required name="harga">
                                                                     <option value = "" disabled selected style="color: #eceff1;"><i>Kriteria Harga</i></option>
-                                                                    <option value = "5">< Rp. 1.000.000</option>
-                                                                    <option value = "4">1.000.000 - 3.000.000</option>
-                                                                    <option value = "3">3.000.000 - 4.000.000</option>
-                                                                    <option value = "2">4.000.000 - 5.000.000</option>
-                                                                    <option value = "1">> 5.000.000</option>
+                                                                    <option value = "5">< Rp. 2.000.000</option>
+                                                                    <option value = "4">2.000.000 - 5.000.000</option>
+                                                                    <option value = "3">5.000.000 - 10.000.000</option>
+                                                                    <option value = "2">10.000.000 - 15.000.000</option>
+                                                                    <option value = "1">> 15.000.000</option>
                                                                 </select>
                                                             </div>
 
@@ -81,11 +81,11 @@
                                                             <div class="col s6">
                                                                 <select required name="ram">
                                                                     <option value = "" disabled selected>Kriteria RAM</option> 
-                                                                    <option value = "1">0 - 1 Gb</option>
-                                                                    <option value = "2">2 Gb</option>
-                                                                    <option value = "3">3 Gb</option>
-                                                                    <option value = "4">4 Gb</option>
-                                                                    <option value = "5">> 5 Gb</option>
+                                                                    <option value = "1">1 - 3 Gb</option>
+                                                                    <option value = "2">4 - 6 Gb</option>
+                                                                    <option value = "3">7 - 9 Gb</option>
+                                                                    <option value = "4">10 - 12 Gb</option>
+                                                                    <option value = "5">> 12 Gb</option>
                                                                 </select>
                                                             </div>
 
@@ -95,11 +95,11 @@
                                                             <div class="col s6">
                                                                 <select required name="memori">
                                                                     <option value = "" disabled selected>Kriteria Penyimpanan</option>
-                                                                    <option value = "1">0 - 4 Gb</option>
-                                                                    <option value = "2">8 Gb</option>
-                                                                    <option value = "3">16 Gb</option>
-                                                                    <option value = "4">32 Gb</option>
-                                                                    <option value = "5">> 32 Gb</option>
+                                                                    <option value = "1">32 Gb</option>
+                                                                    <option value = "2">64 Gb</option>
+                                                                    <option value = "3">128 Gb</option>
+                                                                    <option value = "4">256 Gb</option>
+                                                                    <option value = "5">512 Gb</option>
                                                                 </select>
                                                             </div>
 
@@ -109,9 +109,9 @@
                                                             <div class="col s6">
                                                                 <select required name="processor">
                                                                     <option value = "" disabled selected>Kriteria Processor</option>
-                                                                    <option value = "1">Dualcore</option>
-                                                                    <option value = "3">Quadcore</option>
-                                                                    <option value = "5">Octacore</option>
+                                                                    <option value = "1">Quadcore</option>
+                                                                    <option value = "3">Octacore</option>
+                                                                    <option value = "5">Hexacore</option>
                                                                 </select>
                                                             </div>
 
@@ -121,9 +121,11 @@
                                                             <div class="col s6">
                                                                 <select required name="kamera">
                                                                     <option value = "" disabled selected>Kriteria Kamera</option>
-                                                                    <option value = "1">0 - 8 Mp</option>
-                                                                    <option value = "3">8 - 13 Mp</option>
-                                                                    <option value = "5">>13 Mp</option>
+                                                                    <option value = "1">< 8 Mp</option>
+                                                                    <option value = "2">8 - 12 Mp</option>
+                                                                    <option value = "3">13 - 20 Mp</option>
+                                                                    <option value = "4">21 - 50 Mp</option>
+                                                                    <option value = "5">> 50 Mp</option>
                                                                 </select>
                                                             </div>
                                                             

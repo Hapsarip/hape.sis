@@ -505,13 +505,6 @@ function JarakIplus($aplus,$bob){
 
 		<!-- Body End -->
 
-		<!-- Footer Start -->
-		<div class="footer-copyright" style="padding: 0px 0px; background-color: white">
-			<div class="container">
-				<p align="center" style="color: #999">&copy; Sistem Pendukung Keputusan Pemilihan Smartphone 2018.</p>
-			</div>
-		</div>
-		<!-- Footer End -->
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$('.parallax').parallax();
