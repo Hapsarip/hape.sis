@@ -164,9 +164,9 @@ include('koneksi.php');
 				<ul>
 				    <li>
 						<div class="row">
-						<div class="card">
+						<div class="card" style="border-radius:10px;">
 								<div class="card-content">
-									<center><h4 style="margin-bottom: 0px; margin-top: -8px;">Daftar Smartphone</h4></center>
+									<center><h5 style="margin-bottom: 0px; margin-top: -8px; font-weight:normal;">Daftar HP</h5></center>
 									<table id="table_id" class="hover dataTablesCustom" style="width:100%">
 											<thead style="border-top: 1px solid #d0d0d0;">
 												<tr>
@@ -198,7 +198,7 @@ include('koneksi.php');
 														<center>
 															<form method="POST">
 																<input type="hidden" name="id_hapus_hp" value="<?php echo $data['id_hp'] ?>">
-																<button type="submit" name="hapus_hp" style="height: 32px; width: 32px;" class="btn-floating btn-small waves-effect waves-light red"><i style="line-height: 32px;" class="material-icons">remove</i></button>
+																<button type="submit" name="hapus_hp" style="height: 24px; width: 24px;" class="btn-floating btn-small waves-effect waves-light red"><i style="line-height: 24px;" class="material-icons">remove</i></button>
 															</form>
 														</center>
 													</td>
@@ -227,9 +227,9 @@ include('koneksi.php');
 				<ul>
 				    <li>
 						<div class="row">
-							<div class="card">
+							<div class="card" style="border-radius: 10px;">
 								<div class="card-content" style="padding-top: 10px;">
-									<center><h5 style="margin-bottom: 10px;">Analisa Smartphone</h5></center>
+									<center><p style="margin-bottom: 10px; font-size:20px; font-weight:bold;">Analisis Smartphone</p></center>
 									<table class="responsive-table">
 									
 											<thead style="border-top: 1px solid #d0d0d0;">
@@ -272,12 +272,12 @@ include('koneksi.php');
 	<!-- Daftar hp End -->
 
 	<!-- Modal Start -->
-	<div id="tambah" class="modal" style="width: 40%; height: 100%;">
+	<div id="tambah" class="modal" style="width: 40%; height: 100%; border-radius:10px;">
 		<div class="modal-content">
 			<div class="col s6">
 					<div class="card-content">
 						<div class="row">
-							<center><h5 style="margin-top:-8px;">Masukan Smartphone</h5></center>
+							<center><p style="margin-top:-8px; font-size:20px;">Masukkan Smartphone</p></center>
 							<form method="POST" action="">
 								<div class = "row">
 									<div class="col s12">
@@ -349,14 +349,14 @@ include('koneksi.php');
 
 									</div>  
 								</div> 
-								<center><button name="tambah_hp" type="submit" class="waves-effect waves-light btn teal" style="margin-top: 0px;">Tambah</button></center>	
+								<center><button name="tambah_hp" type="submit" class="waves-effect waves-light btn teal" style="margin-top: 0px;border-radius:18px;">Tambah</button></center>	
 							</form>
 						</div>
 					</div>
 				</div>
 			</div>
 		<div style="height: 0px; "class="modal-footer">
-          <a style="margin-top: -30px;" class="modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
+          <a style="margin-top: -20px;" class="modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
         </div>
 	</div>
 	<!-- Modal End -->
