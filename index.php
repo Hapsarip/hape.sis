@@ -51,10 +51,9 @@
 		<div id="index-banner" class="parallax-container">
 			<div class="section no-pad-bot">
 				<div class="container">
-					<h1 class="header jarak center white-text" style="font-size: 40px">SISTEM PENDUKUNG KEPUTUSAN MENGGUNAKAN METODE TOPSIS</h1>
-					<div class="row center">
-						<h5 class="header jarak-button col s12 light" style="margin-bottom: 0px; font-size: 26px">PEMILIHAN SMARTPHONE</h5>
-					</div>
+					<h1 class="header jarak center white-text" style="font-size: 40px; font-weight:bold;">SISTEM PENDUKUNG KEPUTUSAN</h1>
+					<h1 class="header center white-text" style="font-size: 40px; font-weight:bold;">PEMILIHAN HP</h1>
+				
 					<div class="row center" \>
 								<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn-large" style="margin-top: 40px; background-color: #fff; border-radius:25px; color:#000; font-weight:bold;">Pilih Rekomendasi</a>
 							</div>
