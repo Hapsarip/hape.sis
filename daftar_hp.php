@@ -147,19 +147,13 @@ include('koneksi.php');
 </head>
 <body>
 	<div class="navbar-fixed">
-	<nav>
-    	<div class="container">
-					
-						<div class="nav-wrapper">
-								<ul class="right" style="margin-left: -52px;">
-									<li><a href="index.php">HOME</a></li>
-									<li><a href="rekomendasi.php">REKOMENDASI</a></li>
-									<li><a class="active" href="daftar_hp.php">DAFTAR SMARTPHONE</a></li>
-								</ul>
-						</div>
-					
-        </div>
-		</nav>
+		
+	<!-- navbar -->
+	<?php
+	include 'components/navbar.php'
+	?>
+	<!-- navbar -->
+
 		</div>
 		<!-- Body Start -->
 
