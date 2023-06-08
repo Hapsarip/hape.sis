@@ -20,6 +20,8 @@
 	
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- link to css style -->
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="rekomendasi.css">
 </head>
 <body>
 	<div class="navbar-fixed">
@@ -41,7 +43,7 @@
 		<!-- Body Start -->
 
 		<!-- Daftar Laptop Start -->
-        <div style="background-color: #efefef">
+        <div style="background-color: #fff">
             <div class="container">
                 <div class="section-card" style="padding: 32px 0px 20px 0px">
                     <ul>
@@ -50,10 +52,10 @@
                                 <div class="col s3">
                                 </div>
                                 <div class="col s6">      
-                                    <div class="card">
+                                    <div class="card" style="border-radius: 10px;">
                                         <div class="card-content">
                                             <div class="row">
-                                                <center><h4>Masukan Bobot</h4></center>
+                                                <center><h5 style="font-weight:bold;">Masukkan Kriteria</h5></center>
                                                 <br>
                                                 <form class = "col s12" method="POST" action="hasil.php">
                                                     <div class = "row">
@@ -128,7 +130,7 @@
                                                             </div>
                                                             
                                                         </div>  
-                                                    <center><button type="submit" class="waves-effect waves-light btn" style="margin-bottom:-46px;">Hitung</button></center>	
+                                                    <center><button type="submit" class="waves-effect waves-light btn" style="margin-bottom:-46px; border-radius: 25px; background-color: #08A78B; width: 140px;">Hitung</button></center>	
                                                 </form>       
                                             </div>
                                         </div>

@@ -56,7 +56,7 @@
 						<h5 class="header jarak-button col s12 light" style="margin-bottom: 0px; font-size: 26px">PEMILIHAN SMARTPHONE</h5>
 					</div>
 					<div class="row center" \>
-								<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn-large" style="margin-top: 40px">Pilih Rekomendasi</a>
+								<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn-large" style="margin-top: 40px; background-color: #fff; border-radius:25px; color:#000; font-weight:bold;">Pilih Rekomendasi</a>
 							</div>
 				</div>
 			</div>
