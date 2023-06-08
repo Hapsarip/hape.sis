@@ -32,18 +32,13 @@
 </head>
 <body>
 	<div class="navbar-fixed">
-	<nav>
-    	<div class="container">
-						<div class="nav-wrapper">
-								<ul class="left" style="margin-left: -52px;">
-									<li><a class="active" href="index.php">HOME</a></li>
-									<li><a href="rekomendasi.php">REKOMENDASI</a></li>
-									<li><a href="daftar_hp.php">DAFTAR SMARTPHONE</a></li>
-								</ul>
-						</div>
-					
-        </div>
-		</nav>
+
+	<!-- navbar -->
+	<?php
+	include 'components/navbar.php'
+	?>
+	<!-- navbar -->
+	
 		</div>
     <!-- Body Start -->
 
@@ -51,10 +46,9 @@
 		<div id="index-banner" class="parallax-container">
 			<div class="section no-pad-bot">
 				<div class="container">
-					<h1 class="header jarak center white-text" style="font-size: 40px">SISTEM PENDUKUNG KEPUTUSAN MENGGUNAKAN METODE TOPSIS</h1>
-					<div class="row center">
-						<h5 class="header jarak-button col s12 light" style="margin-bottom: 0px; font-size: 26px">PEMILIHAN SMARTPHONE</h5>
-					</div>
+					<h1 class="header jarak center white-text" style="font-size: 40px; font-weight:bold;">SISTEM PENDUKUNG KEPUTUSAN</h1>
+					<h1 class="header center white-text" style="font-size: 40px; font-weight:bold;">PEMILIHAN HP</h1>
+				
 					<div class="row center" \>
 								<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn-large" style="margin-top: 40px; background-color: #fff; border-radius:25px; color:#000; font-weight:bold;">Pilih Rekomendasi</a>
 							</div>
@@ -65,16 +59,16 @@
 		<!-- Jumbotron End -->
 
 	<!-- Info Start -->
-	<div style="background-color: white">
+	<div style="background-color: white;">
 		<div class="container">
 		    <div class="section-card" style="padding: 36px 0px">
 		    	<div class="row">
 		    		<div class="col s6">
-			    		<center><h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: #635c73">INFO SISTEM</h5></center><br>
+			    		<center><h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: #635c73; font-weight:bold;">INFO SISTEM</h5></center><br>
 			    		<p style="text-align: justify; padding-right: 16px;">Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP. Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo. </p>
 						</div>
 			    	<div class="col s6">
-			    		<center><h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: #635c73">INFO METODE</h5></center><br>
+			    		<center><h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: #635c73; font-weight:bold;">INFO METODE</h5></center><br>
 							<p style="text-align: justify; padding-left: 16px;">Metode yang digunakan adalah metode TOPSIS. Metode TOPSIS adalah salah satu metode penyelesaian pada sistem pendukung keputusan. Metode ini mengevaluasi beberapa alternatif terhadap sekumpulan atribuat atau kriteria, dimana setiap atribut saling tidak bergantung satu dengan yang lainnya.
 							</p>
 							</div>
