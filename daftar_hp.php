@@ -151,7 +151,7 @@ include('koneksi.php');
     	<div class="container">
 					
 						<div class="nav-wrapper">
-								<ul class="left" style="margin-left: -52px;">
+								<ul class="right" style="margin-left: -52px;">
 									<li><a href="index.php">HOME</a></li>
 									<li><a href="rekomendasi.php">REKOMENDASI</a></li>
 									<li><a class="active" href="daftar_hp.php">DAFTAR SMARTPHONE</a></li>
@@ -364,23 +364,6 @@ include('koneksi.php');
 		<div style="height: 0px; "class="modal-footer">
           <a style="margin-top: -30px;" class="modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
         </div>
-	</div>
-	<!-- Modal End -->
-
-	<!-- Modal Start -->
-	<div id="about" class="modal">
-		<div class="modal-content">
-			<h4>Tentang</h4>
-			<p>Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
-			Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo Madura. <br>
-			<br>
-			1. Zulfi Osman<br>
-			2. Wahid Arinanto Nugroho <a href="https://wahidari.gitlab.io/"> (Gitlab)</a><br>
-		</p>
-		</div>
-		<div class="modal-footer">
-			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
-		</div>
 	</div>
 	<!-- Modal End -->
 
