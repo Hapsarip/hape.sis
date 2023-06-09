@@ -50,7 +50,7 @@
 					<h1 class="header center white-text" style="font-size: 40px; font-weight:bold;">PEMILIHAN HP</h1>
 				
 					<div class="row center" \>
-								<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn-large" style="margin-top: 40px; background-color: #fff; border-radius:25px; color:#000; font-weight:bold;">Pilih Rekomendasi</a>
+								<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn-large" style="margin-top: 40px; background-color: #fff; border-radius:25px; color:#000; font-weight:bold;">Cari Rekomendasi</a>
 							</div>
 				</div>
 			</div>
@@ -63,7 +63,34 @@
 		<div class="container">
 		    <div class="section-card" style="padding: 36px 0px">
 		    	<div class="row">
-		    		<div class="col s6">
+
+					<!-- tentang kami -->
+					<div class="tentang-kami" style="display: flex; flex-direction:column; justify-content: center; align-items: center; margin-top: 40px; margin-bottom: 60px;">
+						<h4 style="font-weight:bold;">Tentang <span style="color:#08A78B;">HAPE.SIS</span></h4>
+						<!-- keterangan -->
+						<div style="width: 75%; text-align: center; font-size: larger; display: flex; flex-direction:column; justify-content: center; align-items: center;">
+							<p><span style="color:#08A78B;">HAPE.SIS</span> adalah sebuah web yang menyediakan <span style="color:#08A78B;"><strong>Sistem Pendukung Keputusan</strong></span> untuk memberikan rekomendasi pembelian handphone</p>
+							<p><span style="color:#08A78B;">HAPE.SIS</span> membantu memilih handphone yang sesuai dengan preferensi dan kebutuhanmu</p>
+							<p>Metode yang digunakan dalam pengambilan keputusan adalah <span style="color:#08A78B;">TOPSIS</span>. <br>Metode ini mengevaluasi beberapa alternatif terhadap sekumpulan kriteria, dimana setiap atribut tidak saling bergantung satu dengan lainnya. Tahapan dalam metode TOPSIS adalah menentukan kriteria dan alternatif, menentukan matriks penilaian, menormalisasi matriks penilaian, 4. menentukan bobot kriteria, menghitung matriks keputusan terbobot, menentukan solusi ideal positif (SIP) dan solusi ideal negatif (SIN), serta menghitung jarak alternatif</p>
+						</div>
+					</div>
+					<!-- tentang kami -->
+
+					<!-- Cara Penggunaan -->
+					<div class="cara-penggunaan" style="display: flex; flex-direction:column; justify-content: center; align-items: center; margin-top: 20px; margin-bottom: 100px;">
+						<h4 style="font-weight:bold;">Cara Penggunaan</span></h4>
+						<!-- keterangan -->
+						<div style="width: 60%; font-size: larger; display: flex; flex-direction:column;">
+							<ol class="numbered-list">
+								<li style="line-height: 2;">Klik tombol "Cari Rekomendasi"</li>
+								<li style="line-height: 2;">Masukkan rentang nilai untuk tiap kriteria handphone yang diinginkan</li>
+								<li style="line-height: 2;">Klik tombol "Hitung"</li>
+							</ol>
+						</div>
+					</div>
+					<!-- tentang kami -->
+
+		    		<!-- <div class="col s6">
 			    		<center><h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: #635c73; font-weight:bold;">INFO SISTEM</h5></center><br>
 			    		<p style="text-align: justify; padding-right: 16px;">Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP. Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo. </p>
 						</div>
@@ -71,7 +98,7 @@
 			    		<center><h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: #635c73; font-weight:bold;">INFO METODE</h5></center><br>
 							<p style="text-align: justify; padding-left: 16px;">Metode yang digunakan adalah metode TOPSIS. Metode TOPSIS adalah salah satu metode penyelesaian pada sistem pendukung keputusan. Metode ini mengevaluasi beberapa alternatif terhadap sekumpulan atribuat atau kriteria, dimana setiap atribut saling tidak bergantung satu dengan yang lainnya.
 							</p>
-							</div>
+							</div> -->
 		    	</div>
 	    	</div>
 		</div>
