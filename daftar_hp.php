@@ -220,58 +220,7 @@ include('koneksi.php');
 	</div>
 	<!-- Daftar hp End -->
 
-	<!-- Daftar hp Start -->
-	<div style="background-color: #efefef">
-		<div class="container">
-		    <div class="section-card" style="padding: 1px 20% 24px 20%;">
-				<ul>
-				    <li>
-						<div class="row">
-							<div class="card" style="border-radius: 10px;">
-								<div class="card-content" style="padding-top: 10px;">
-									<center><p style="margin-bottom: 10px; font-size:20px; font-weight:bold;">Analisis Smartphone</p></center>
-									<table class="responsive-table">
-									
-											<thead style="border-top: 1px solid #d0d0d0;">
-												<tr>
-													<th><center>Alternatif</center></th>
-													<th><center>C1 (Cost)</center></th>
-													<th><center>C2 (Benefit)</center></th>
-													<th><center>C3 (Benefit)</center></th>
-													<th><center>C4 (Benefit)</center></th>
-													<th><center>C5 (Benefit)</center></th>
-												</tr>
-											</thead>
-											<tbody>
-												<?php
-												$query=mysqli_query($selectdb,"SELECT * FROM data_hp");
-												$no=1;
-												while ($data=mysqli_fetch_array($query)) {
-												?>
-												<tr>
-													<td><center><?php echo "A",$no ?></center></td>
-													<td><center><?php echo $data['harga_angka'] ?></center></td>
-													<td><center><?php echo $data['ram_angka'] ?></center></td>
-													<td><center><?php echo $data['memori_angka'] ?></center></td>
-													<td><center><?php echo $data['processor_angka'] ?></center></td>
-													<td><center><?php echo $data['kamera_angka'] ?></center></td>
-												</tr>
-												<?php
-														$no++;}
-												?>
-											</tbody>
-									</table>
-									</div>
-							</div>
-						</div>
-				    </li>
-				</ul>	     
-	    	</div>
-		</div>
-	</div>
-	<!-- Daftar hp End -->
-
-	<!-- Modal Start -->
+		<!-- Modal Start -->
 	<div id="tambah" class="modal" style="width: 40%; height: 100%; border-radius:10px;">
 		<div class="modal-content">
 			<div class="col s6">
@@ -301,12 +250,12 @@ include('koneksi.php');
 										</div>
 										<div class="col s6">
 											<select style="display: block; margin-bottom: 4px;" required name="ram">
-												<!-- <option value = "" disabled selected>Kriteria RAM</option>  -->
-												<option value = "1">1 Gb</option>
-												<option value = "2">2 Gb</option>
-												<option value = "3">3 Gb</option>
-												<option value = "4">4 Gb</option>
-												<option value = "6">6 Gb</option>
+												<option value = "" disabled selected>Kriteria RAM</option> 
+                                                <option value = "1">1 - 3 Gb</option>
+                                                <option value = "2">4 - 6 Gb</option>
+                                                <option value = "3">7 - 9 Gb</option>
+                                                <option value = "4">10 - 12 Gb</option>
+                                                <option value = "5">> 12 Gb</option>
 											</select>
 										</div>
 
@@ -315,12 +264,12 @@ include('koneksi.php');
 										</div>
 										<div class="col s6">
 											<select style="display: block; margin-bottom: 4px;" required name="memori">
-												<!-- <option value = "" disabled selected>Kriteria Penyimpanan</option> -->
-												<option value = "4">4 Gb</option>
-												<option value = "8">8 Gb</option>
-												<option value = "16">16 Gb</option>
-												<option value = "32">32 Gb</option>
-												<option value = "64">64 Gb</option>
+												<option value = "" disabled selected>Kriteria Penyimpanan</option>
+                                                <option value = "1">32 Gb</option>
+                                                <option value = "2">64 Gb</option>
+                                                <option value = "3">128 Gb</option>
+                                                <option value = "4">256 Gb</option>
+                                                <option value = "5">512 Gb</option>
 											</select>
 										</div>
 
@@ -329,9 +278,10 @@ include('koneksi.php');
 										</div>
 										<div class="col s6">
 											<select style="display: block; margin-bottom: 4px;" required name="processor">
-												<option value = "Dualcore">Dualcore</option>
-												<option value = "Quadcore">Quadcore</option>
-												<option value = "Octacore">Octacore</option>
+												<option value = "" disabled selected>Kriteria Processor</option>
+                                                <option value = "1">Quadcore</option>
+                                                <option value = "3">Octacore</option>
+                                                <option value = "5">Hexacore</option>
 											</select>
 										</div>
 
@@ -340,10 +290,12 @@ include('koneksi.php');
 										</div>
 										<div class="col s6">
 											<select style="display: block; margin-bottom: 4px;" required name="kamera">
-												<!-- <option value = "" disabled selected>Kriteria Kamera</option> -->
-												<option value = "8">8 Mp</option>
-												<option value = "13">13 Mp</option>
-												<option value = "16">16 Mp</option>
+												<option value = "" disabled selected>Kriteria Kamera</option>
+                                                <option value = "1">< 8 Mp</option>
+                                                <option value = "2">8 - 12 Mp</option>
+                                                <option value = "3">13 - 20 Mp</option>
+                                                <option value = "4">21 - 50 Mp</option>
+                                                <option value = "5">> 50 Mp</option>
 											</select>
 										</div>
 

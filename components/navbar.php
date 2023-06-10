@@ -5,7 +5,7 @@
 						</div>
 						<div class="nav-wrapper" style="color:black; font-weight:bold;">
 								<ul class="left" style="margin-left: -52px;">
-									<li><a class="active" href="index.php">Home</a></li>
+									<li><a href="index.php" style="">Home</a></li>
 									<li><a href="rekomendasi.php">Rekomendasi</a></li>
 									<li><a href="daftar_hp.php">Daftar HP</a></li>
 								</ul>

@@ -90,12 +90,10 @@ function JarakIplus($aplus,$bob){
 	</div>
 	<!-- Body Start -->
 
-	<!-- Daftar Laptop Start -->
+	<!-- Daftar HPStart -->
 	<div style="background-color: #efefef">
 		<div class="container">
 			<div class="section-card" style="padding: 20px 0px">
-				<!--   Icon Section   -->
-
 
 				<center>
 					<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">HASIL REKOMENDASI SMARTPHONE</h4>
@@ -144,7 +142,6 @@ function JarakIplus($aplus,$bob){
 						</div>
 					</li>
 				</ul>
-
 
 				<center>
 					<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">Matriks ternormalisasi, R:</h4>
@@ -201,7 +198,6 @@ function JarakIplus($aplus,$bob){
 						</li>
 					</ul>
 
-
 					<center>
 						<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">BOBOT (W)</h4>
 					</center>
@@ -237,7 +233,6 @@ function JarakIplus($aplus,$bob){
 							</div>
 						</li>
 					</ul>
-
 
 					<center>
 						<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">Matriks ternormalisasi terbobot, Y:</h4>
@@ -295,7 +290,6 @@ function JarakIplus($aplus,$bob){
 							</li>
 						</ul>
 
-
 						<center>
 							<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">Matrik Solusi ideal positif dan negatif
 							</h4>
@@ -325,10 +319,10 @@ function JarakIplus($aplus,$bob){
 													?>
 													<tr>
 														<?php  
-														$idealpositif=array(min($NormalisasiBobotTrans[0]),max($NormalisasiBobotTrans[1]),max($NormalisasiBobotTrans[2]),max($NormalisasiBobotTrans[3]),max($NormalisasiBobotTrans[4]));
+														$idealpositif=array(max($NormalisasiBobotTrans[0]),max($NormalisasiBobotTrans[1]),max($NormalisasiBobotTrans[2]),max($NormalisasiBobotTrans[3]),max($NormalisasiBobotTrans[4]));
 														?>
 														<td><center><?php echo "Y+" ?> </center></td>
-														<td><center><?php echo(round(min($NormalisasiBobotTrans[0]),6));?>&nbsp(min)</center></td>
+														<td><center><?php echo(round(max($NormalisasiBobotTrans[0]),6));?>&nbsp(max)</center></td>
 														<td><center><?php echo(round(max($NormalisasiBobotTrans[1]),6));?>&nbsp(max)</center></td>
 														<td><center><?php echo(round(max($NormalisasiBobotTrans[2]),6));?>&nbsp(max)</center></td>
 														<td><center><?php echo(round(max($NormalisasiBobotTrans[3]),6));?>&nbsp(max)</center></td>
@@ -336,10 +330,10 @@ function JarakIplus($aplus,$bob){
 													</tr>
 													<tr>
 														<?php  
-														$idealnegatif=array(max($NormalisasiBobotTrans[0]),min($NormalisasiBobotTrans[1]),min($NormalisasiBobotTrans[2]),min($NormalisasiBobotTrans[3]),min($NormalisasiBobotTrans[4]));
+														$idealnegatif=array(min($NormalisasiBobotTrans[0]),min($NormalisasiBobotTrans[1]),min($NormalisasiBobotTrans[2]),min($NormalisasiBobotTrans[3]),min($NormalisasiBobotTrans[4]));
 														?>
 														<td><center><?php echo "Y-" ?> </center></td>
-														<td><center><?php echo(round(max($NormalisasiBobotTrans[0]),6));?>&nbsp(max)</center></td>
+														<td><center><?php echo(round(min($NormalisasiBobotTrans[0]),6));?>&nbsp(min)</center></td>
 														<td><center><?php echo(round(min($NormalisasiBobotTrans[1]),6));?>&nbsp(min)</center></td>
 														<td><center><?php echo(round(min($NormalisasiBobotTrans[2]),6));?>&nbsp(min)</center></td>
 														<td><center><?php echo(round(min($NormalisasiBobotTrans[3]),6));?>&nbsp(min)</center></td>
@@ -352,7 +346,6 @@ function JarakIplus($aplus,$bob){
 								</div>
 							</li>
 						</ul>
-
 
 						<center>
 							<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">Jarak antara nilai terbobot setiap alternatif terhadap solusi ideal positif												
@@ -401,7 +394,6 @@ function JarakIplus($aplus,$bob){
 							</li>
 						</ul>
 
-
 						<center>
 							<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">Nilai Preferensi untuk Setiap alternatif (V)												
 							</h4>
@@ -416,7 +408,7 @@ function JarakIplus($aplus,$bob){
 												<thead style="border-top: 1px solid #d0d0d0;">
 													<tr>
 														<th><center>Nilai Preferensi "V"</center></th>
-														<th><center>Nilai</center></th>
+														<th><center>Nilai Preferensi</center></th>
 													</tr>
 												</thead>
 												<tbody>
@@ -444,7 +436,6 @@ function JarakIplus($aplus,$bob){
 								</div>
 							</li>
 						</ul>
-
 
 						<center>
 							<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">Nilai Preferensi tertinggi
@@ -487,9 +478,73 @@ function JarakIplus($aplus,$bob){
 								</div>
 							</div>
 						</li>
+
+						<center>
+							<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">Peringkat												
+							</h4>
+						</center>
+						<ul>
+							<li>
+								<div class="row">
+									<div class="card" style="margin-left: 320px;margin-right: 320px;">
+										<div class="card-content">
+											<table class="responsive-table" >
+
+												<thead style="border-top: 1px solid #d0d0d0;">
+													<tr>
+														<th><center>Item</center></th>
+														<th><center>Nilai Preferensi</center></th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<?php
+														
+														$iter=1;
+														$query=mysqli_query($selectdb,"SELECT * FROM data_hp");
+														$namaHP = array();
+														while ($user=mysqli_fetch_array($query)) {
+															$query=mysqli_query($selectdb,"SELECT nama_hp FROM data_hp where id_hp = $iter+1");
+															array_push($namaHP, $user['nama_hp']);
+															$iter++;
+														}
+														
+														$length = count($nilaiV);
+														for ($i = 0; $i < $length - 1; $i++) {
+															for ($j = 0; $j < $length - $i - 1; $j++) {
+																if ($nilaiV[$j] < $nilaiV[$j + 1]) {																	
+																	$temp = $nilaiV[$j];
+																	$temp2 = $namaHP[$j];
+																	$nilaiV[$j] = $nilaiV[$j + 1];
+																	$namaHP[$j] = $namaHP[$j + 1];
+																	$nilaiV[$j + 1] = $temp;
+																	$namaHP[$j + 1] = $temp2;																	
+																}																
+															}
+														}
+														
+														$ranking = rsort($nilaiV);														
+														for ($ii=0; $ii < count($nilaiV); $ii++) {
+															?>
+															<tr>
+																<td><center><?php echo $namaHP[$ii]?></center></td>
+																<td><center><?php echo $nilaiV[$ii]; ?></center></td>															
+															</tr>
+															<?php
+															
+														}
+													?>													
+												</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
 					</ul>
 					<div class="row center" \>
-						<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn" style="margin-top: 0px">Hitung Rekomendasi Ulang</a>
+						<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn" style="border-radius: 25px; background-color: #08A78B;" >Hitung Ulang</a>
 					</div>
 				</div>
 			</div>
